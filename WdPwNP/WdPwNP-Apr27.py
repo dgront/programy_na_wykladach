@@ -25,6 +25,7 @@ even = [2*i for i in range(1, 10) if i%3 == 0]
 slownik: Dict[str, int] \
     = {w:len(w) for w in "Ala ma kota".split()}
 # print(slownik)
+
 # ------------ regex
 print("----- regex -----")
 napis1 = "Ala ma kota"
